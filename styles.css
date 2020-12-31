@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.navbar {
+    padding: 2% 10% 2% 10%;
+}
+.navbar-brand {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+    color: #305973;
+    font-weight: 570;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+.nav-link:hover {
+    color: orange;
+}
+
+
+#logo {
+    width: 10%;
+}
+
+
+
+#bg {
+    text-align: center;
+}
+
+img {
+    width: 90%;
+}
+
+.bgtxt {
+    margin-top: 2%;
+    margin-left: 47%;
+    position: absolute;
+    justify-content: center;
+}
+
+.bgtxt h1 {
+    color: white;
+    font-size: 5.2vw;
+
+}
+
+.bgtxt h3 {
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    font-size: 2.5vw;
+
+}
+
+.csdivp {
+    padding: 7%;
+}
+
+#about {
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.about {
+    color: rgb(248, 210, 210);
+    font-size: 13vw;
+    font-weight: 900;
+}
+
+#about p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+#Skills .container-fluid {
+    padding: 5% 18% 10% 18%;
+}
+
+#skills {
+    padding: 7% 0;
+}
+
+#Skills h1 {
+    text-align: right;
+    color: rgb(248, 210, 210);
+    position: absolute;
+    font-size: 13vw;
+    font-weight: 900;
+}
+
+.cs2 {
+    margin-left:55vw;
+}
+
+
+#skill1 {
+    text-align: left;
+    font-weight: 800;
+    height: 25px;
+    padding-left: 11px;
+    width: 100%;
+}
+#skill2 {
+    text-align: left;
+    font-weight: 800;
+    height: 25px;
+    padding-left: 11px;
+}
+#skill3 {
+    text-align: left;
+    font-weight: 800;
+    height: 25px;
+    padding-left: 11px;
+}
+#skill4 {
+    text-align: left;
+    font-weight: 800;
+    height: 25px;
+    padding-left: 11px;
+}
+#skill5 {
+    text-align: left;
+    font-weight: 800;
+    height: 25px;
+    padding-left: 11px;
+}
+
+
+.skill1 {
+    animation-duration: 4s;
+    animation-name: slidein1;
+    transition: ease-in;
+    margin-top: 14rem;
+    width: 90%;
+    background-color: rgb(57, 215, 243);
+    border-radius: 50px;
+}
+.skill2 {
+    animation-duration: 4s;
+    animation-name: slidein2;
+    transition: ease-in;
+    margin-top: 1rem;
+    width: 85%;
+    background-color: rgb(195, 130, 238);
+    border-radius: 50px;
+}
+.skill3 {
+    animation-duration: 4s;
+    animation-name: slidein3;
+    transition: ease-in;
+    margin-top: 1rem;
+    width: 70%;
+    background-color: rgb(122, 238, 232);
+    border-radius: 50px;
+}
+.skill4 {
+    animation-duration: 4s;
+    animation-name: slidein4;
+    transition: ease-in;
+    margin-top: 1rem;
+    width: 90%;
+    background-color: rgb(240, 252, 70);
+    border-radius: 50px;
+}
+.skill5 {
+    animation-duration: 4s;
+    animation-name: slidein5;
+    transition: ease-in;
+    margin-top: 1rem;    
+    width: 85%;
+    background-color: rgb(253, 149, 80);
+    border-radius: 50px;
+}
+
+.a2 {
+    margin-top: 5%;
+    color: rgb(248, 210, 210);
+    font-size: 13vw;
+    font-weight: 900;
+}
+
+
+.awards {
+    padding: 0 50%;
+}
+
+
+.award2 {
+    margin-top: 1.5rem;
+}
+
+
+.card-text {
+    text-align: justify;
+}
+
+.card-img1 {
+    width: 90%;
+}
+
+#awards .container-fluid {
+    padding: 2% 25%;
+}
+
+
+#footer {
+    background-color: rgb(242, 246, 248);
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+@keyframes slidein1{
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 90%;
+    }
+}
+
+@keyframes slidein2{
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 85%;
+    }
+}
+
+@keyframes slidein3{
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 70%;
+    }
+}
+
+@keyframes slidein4{
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 90%;
+    }
+}
+
+@keyframes slidein5{
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:991px){
+    .cs2 {
+        margin-left:30vw;
+    }
+}
