@@ -69,12 +69,14 @@ img {
 }
 
 .about {
+    text-align: left;
     color: rgb(248, 210, 210);
     font-size: 13vw;
     font-weight: 900;
 }
 
-#about p {
+.aboutp {
+    padding: 0 20%;
     text-align: justify;
     font-size: 18px;
 }
