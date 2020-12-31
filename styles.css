@@ -133,7 +133,7 @@ img {
     animation-duration: 4s;
     animation-name: slidein1;
     transition: ease-in;
-    margin-top: 5rem;
+    margin-top: 2rem;
     width: 90%;
     background-color: rgb(57, 215, 243);
     border-radius: 50px;
