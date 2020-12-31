@@ -77,11 +77,11 @@ img {
 }
 
 #Skills .container-fluid {
-    padding: 5% 18% 10% 18%;
+    padding: 5% 18% 5% 18%;
 }
 
 #skills {
-    padding: 7% 0;
+    padding: 2% 0;
 }
 
 #Skills h1 {
@@ -102,7 +102,6 @@ img {
     font-weight: 800;
     height: 25px;
     padding-left: 11px;
-    width: 100%;
 }
 #skill2 {
     text-align: left;
@@ -177,7 +176,7 @@ img {
 }
 
 .a2 {
-    margin-top: 5%;
+    margin-top: 2%;
     color: rgb(248, 210, 210);
     font-size: 13vw;
     font-weight: 900;
