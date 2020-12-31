@@ -62,7 +62,7 @@ img {
 
 #about {
     margin-top: 15%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .about {
@@ -134,7 +134,7 @@ img {
     animation-duration: 4s;
     animation-name: slidein1;
     transition: ease-in;
-    margin-top: 14rem;
+    margin-top: 5rem;
     width: 90%;
     background-color: rgb(57, 215, 243);
     border-radius: 50px;
